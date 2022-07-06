@@ -1,0 +1,159 @@
+@import "reset.css";
+
+#total_page{
+    flex-direction: column;
+    height: 100%;
+}
+
+#top {
+    /* background-color: gold; */
+    font-size: 4em;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    /* font-weight: bold; */
+    }
+
+.title-link{
+    text-decoration: none;
+    color: black;
+}
+    
+img{
+    display: block;
+}
+
+summary{
+    cursor: pointer;
+    outline: none;
+}
+
+details summary{
+    /* font-size: 20px; */
+    margin: 5px;
+}
+
+.recipe_list {
+    padding: 10px;
+}
+
+.in-detail-list{
+    margin-left: 20px;
+}
+
+.link-list{
+    text-decoration: none;
+    color: black;
+}
+
+#group1 {
+    display: flex;
+}
+
+#left {
+    /* background-color: skyblue; */
+    flex: 15%;
+    padding: 20px;
+    border-right: 3px solid #edd5d8;
+}
+
+
+#contents{
+    /* background-color: greenyellow; */
+    flex: 85%;
+    margin: 40px 10px;
+    flex-direction: column;
+}
+
+/* 본문 */
+
+#video_area{
+    text-align: center;
+}
+
+.main_video{
+    max-width: 90%;
+    margin: 20px;
+}
+
+#recipe_name{
+    padding: 15px 65px 0px 65px;
+}
+
+#recipe_name_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#intro_cooking{
+    padding: 30px 65px 60px 65px;
+    line-height: 20px;
+}
+
+.index_title{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 65px;
+}
+
+.ingredients_recipe_area{
+    display: flex;
+    padding: 30px 65px;
+}
+
+#ingredients_image{
+    flex: 50%;
+}
+
+
+#ingredients_intro{
+    flex: 50%;
+}
+
+.cooking_image{
+    width: 400px;
+    height: 400px;
+}
+
+.text_emphasis{
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.ingredients_intro_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    margin: 5px;
+}
+
+#recipe_cooking_area{
+    display: flex;
+    padding: 20px 65px;
+}
+
+#recipe_cooking_image_area{
+    flex: 50%;
+}
+
+#recipe_cooking_main_area{
+    flex: 50%;
+}
+
+.cooking_text_area{
+    flex: 50%;
+    height: 400px;
+    margin: 20px 0px 40px 0px;
+}
+
+.cooking_image_area{
+    margin: 20px 0px 40px 0px;
+}
+
+.cooking_text_line{
+    line-height: 20px;
+}
